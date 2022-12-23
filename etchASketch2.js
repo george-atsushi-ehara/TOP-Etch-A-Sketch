@@ -10,5 +10,8 @@ for (let i = 0; i < 256; i++) {
   div.style.height = "50px";
   div.style.backgroundColor = "white";
   div.style.display = "inline-block";
+  div.addEventListener("mouseover", function () {
+    div.style.backgroundColor = "black";
+  });
   etchContainer.appendChild(div);
 }
